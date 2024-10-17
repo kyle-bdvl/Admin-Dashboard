@@ -8,15 +8,68 @@ body{
 
 .sidebar{
   width:20%;
-  height:100vh;
+  height:104vh;
   background-color:rgb(25, 146, 212) ;
   padding-left:20px;
   padding-top:15px;
   color:white;
 }
 
+.title{
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.options{
+  margin-top:3rem;
+  margin-left: 0.8rem;
+  display:grid;
+  grid-template-columns: repeat(2,40px);
+  grid-template-rows: repeat(6,40px);
+  gap:10px;
+}
+
+.options>div{
+  font-weight:500;
+  font-size:1.1em;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.settings{
+  margin-top:3rem;
+  margin-left: 0.8rem;
+  display:grid;
+  grid-template-columns: repeat(2,40px);
+  grid-template-rows: repeat(3,40px);
+  gap: 10px;
+}
+
+.settings >div{
+  font-weight:500;
+  font-size:1.1em;
+  text-align: center;
+  padding-top: 6px; 
+}
+
+#icons{
+  width:2rem;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(345deg)
+  brightness(99%) contrast(102%);
+  
+}
+
+#logo{
+  width:4rem;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(345deg)
+  brightness(99%) contrast(102%);
+  padding-right:0.9rem;
+}
+
 .content{
-  width:80%;
+  width:85%;
   height:100vh;
   display:flex;
   flex-direction: column;
@@ -25,6 +78,9 @@ body{
 .header{
   display:flex;
   flex-direction:column;
+  box-shadow: 15px 5px 4px rgb(204, 209, 216);
+  z-index: 1;
+  
 }
 
 .top{
@@ -32,12 +88,11 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  
+  margin-top:20px;
 }
 
 .magnify{
   width:1.5rem;
-  height:auto;
   padding-right:0.8rem;
 }
 
@@ -61,8 +116,10 @@ body{
 }
 
 .profile{
-  width:2rem;
+  width:2.7rem;
   padding-left:2rem;
+  filter: invert(82%) sepia(53%) saturate(1938%) 
+  hue-rotate(340deg) brightness(107%) contrast(112%);
 }
 
 .name{
@@ -73,29 +130,32 @@ body{
   display:flex;
   justify-content: space-between;
   align-items: center;
-  padding-left:3rem;
+  padding-left:3.8rem;
   padding-right:3rem;
-  
+  padding-bottom:0.8rem;
 }
 
 .bottom>div{
   display:flex;
   flex-direction: row;
-  padding-top:2rem;
+  padding-top:0.8rem;
   justify-content:left;
-  align-items:center;
+  align-items:top;
 }
 
 .pfpBig{
   width: 4rem;
+  padding-right:0.5rem;
+  filter: invert(82%) sepia(53%) saturate(1938%) 
+  hue-rotate(340deg) brightness(107%) contrast(112%);
 }
 
 .buttons{
   width:fit-content;
   display:flex;
   justify-content: flex-end;
-  align-items: center;
-  padding-top:14px;
+  align-items: top;
+  padding-top:17px;
   gap:2.8em;
 }
 
@@ -115,9 +175,8 @@ body{
 }
 
 .Projects{
-  box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.2); /* Spread radius of 5px */
-  background-color: lightgray;
-  height:80vh;
+  background-color: rgb(226, 232, 240);
+  height:82vh;
 }
 
 
