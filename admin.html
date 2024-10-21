@@ -9,7 +9,7 @@
   <title>Admin Dashboard</title>
   <link rel="stylesheet" href="style.css">
 </head>
-  <body>
+  <body class="body-container">
     <div class="sidebar">
       <div class="title">
         <img src=".\icons\view-dashboard-outline.svg" id="logo">
@@ -58,7 +58,7 @@
         <div class="bottom">
           <div>
             <img src=".\icons\account-circle-outline.svg" class="pfpBig" id="pfp">
-            <p class="hi">Hi there,<br><span><strong>Morgan Oakley (@morgan)</span></p>
+            <p class="hi">Hi there,<br><span><strong>Morgan Oakley (@morgan)</strong></span></p>
           </div>
           <div class="buttons">
             <button id="quickButtons">New</button>
@@ -68,65 +68,85 @@
         </div>
       </div>
 
-      <div class="mainContent">
-        <h4 class="Projects">Your Projects</h4>
-        <div class="part1">
-          <div class="box">
-            <p class="passage"><strong>Super Cool Project</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tenetur qui, sunt distinctio eos sapiente tempore. Esse</p>
-            <div class="threeIcons">
-              <img src=".\icons\star-plus-outline.svg" id="shares">
-              <img src=".\icons\eye-plus-outline.svg " id="shares">
-              <img src=".\icons\share-variant-outline.svg" id="shares">
-            </div>
-          </div>
+      <div class="part2">
+        <h4 class="projects">Announcements</h4>
+        <div class="announcements">
+          <div class="alerts">
+            <p id="alerts"><span id="Title">Site Maintenance </span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic id qui nam, officia sed eligendi magnam iste minus ipsam eveniet...</p>
+            <p id="alerts"><span id="Title">Community Share Day </span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic id qui nam, officia sed eligendi magnam iste minus ipsam eveniet...</p>
+            <p id="alerts"><span id="Title">Updated Privacy Policy</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic id qui nam, officia sed eligendi magnam iste minus ipsam eveniet...</p>
 
-          <div class="box">
-            <p class="passage"><strong>Less Cool Project</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tenetur qui, sunt distinctio eos sapiente tempore. Esse</p>
-            <div class="threeIcons">
-              <img src=".\icons\star-plus-outline.svg " id="shares">
-              <img src=" .\icons\eye-plus-outline.svg " id="shares">
-              <img src=".\icons\share-variant-outline.svg " id="shares">
-            </div>
-          </div>
-
-          <div class="box">
-            <p class="passage"><strong>Impossible App</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tenetur qui, sunt distinctio eos sapiente tempore. Esse</p>
-            <div class="threeIcons">
-              <img src=" .\icons\star-plus-outline.svg" id="shares">
-              <img src=".\icons\eye-plus-outline.svg  " id="shares">
-              <img src=".\icons\share-variant-outline.svg" id="shares">
-            </div>
-          </div>
-
-          <div class="box">
-            <p class="passage"><strong>Easy Peasy App</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tenetur qui, sunt distinctio eos sapiente tempore. Esse</p>
-            <div class="threeIcons">
-              <img src=" .\icons\star-plus-outline.svg" id="shares">
-              <img src=" .\icons\eye-plus-outline.svg " id="shares">
-              <img src=".\icons\share-variant-outline.svg " id="shares">
-            </div>
-          </div>
-
-          <div class="box">
-            <p class="passage"><strong>Ad Blocker</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tenetur qui, sunt distinctio eos sapiente tempore. Esse</p>
-            <div class="threeIcons">
-              <img src=".\icons\star-plus-outline.svg " id="shares">
-              <img src=".\icons\eye-plus-outline.svg  " id="shares">
-              <img src=".\icons\share-variant-outline.svg " id="shares">
-            </div>
-          </div>
-
-          <div class="box">
-            <p class="passage"><strong>Money Maker</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tenetur qui, sunt distinctio eos sapiente tempore. Esse</p>
-            <div class="threeIcons">
-              <img src=".\icons\star-plus-outline.svg " id="shares">
-              <img src=" .\icons\eye-plus-outline.svg " id="shares">
-              <img src=".\icons\share-variant-outline.svg " id="shares">
-            </div>
+          
           </div>
         </div>
 
-        <div class="part2">
+        <div class="Trending">
+          Trending
+          <div class="people">
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="mainContent">
+        
+        <h4 class="Projects">Your Projects</h4>
+
+        <div class="box">
+          <p class="passage"><strong>Super Cool Project</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tenetur qui, sunt distinctio eos sapiente tempore. Esse</p>
+          <div class="threeIcons">
+            <img src=".\icons\star-plus-outline.svg" id="shares">
+            <img src=".\icons\eye-plus-outline.svg " id="shares">
+            <img src=".\icons\share-variant-outline.svg" id="shares">
+          </div>
+        </div>
+
+        <div class="box">
+          <p class="passage"><strong>Less Cool Project</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tenetur qui, sunt distinctio eos sapiente tempore. Esse</p>
+          <div class="threeIcons">
+            <img src=".\icons\star-plus-outline.svg " id="shares">
+            <img src=" .\icons\eye-plus-outline.svg " id="shares">
+            <img src=".\icons\share-variant-outline.svg " id="shares">
+          </div>
+        </div>
+
+        <div class="box">
+          <p class="passage"><strong>Impossible App</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tenetur qui, sunt distinctio eos sapiente tempore. Esse</p>
+          <div class="threeIcons">
+            <img src=" .\icons\star-plus-outline.svg" id="shares">
+            <img src=".\icons\eye-plus-outline.svg  " id="shares">
+            <img src=".\icons\share-variant-outline.svg" id="shares">
+          </div>
+        </div>
+
+        <div class="box">
+          <p class="passage"><strong>Easy Peasy App</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tenetur qui, sunt distinctio eos sapiente tempore. Esse</p>
+          <div class="threeIcons">
+            <img src=" .\icons\star-plus-outline.svg" id="shares">
+            <img src=" .\icons\eye-plus-outline.svg " id="shares">
+            <img src=".\icons\share-variant-outline.svg " id="shares">
+          </div>
+        </div>
+
+        <div class="box">
+          <p class="passage"><strong>Ad Blocker</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tenetur qui, sunt distinctio eos sapiente tempore. Esse</p>
+          <div class="threeIcons">
+            <img src=".\icons\star-plus-outline.svg " id="shares">
+            <img src=".\icons\eye-plus-outline.svg  " id="shares">
+            <img src=".\icons\share-variant-outline.svg " id="shares">
+          </div>
+        </div>
+
+        <div class="box">
+          <p class="passage"><strong>Money Maker</strong><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque tenetur qui, sunt distinctio eos sapiente tempore. Esse</p>
+          <div class="threeIcons">
+            <img src=".\icons\star-plus-outline.svg " id="shares">
+            <img src=" .\icons\eye-plus-outline.svg " id="shares">
+            <img src=".\icons\share-variant-outline.svg " id="shares">
+          </div>
+        </div>
+
+        <!-- <div class="part2">
           <h4 class="projects">Announcements</h4>
           <div class="announcements">
             <div class="alerts">
@@ -144,7 +164,7 @@
               
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
     </div>
